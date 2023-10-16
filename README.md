@@ -23,7 +23,7 @@ Powerpoint and excel work great as well, as far as I have seen.
 
  - Download the file in this repository
  - `cat office.tar.gz | gunzip | tar -x` on linux and macos (7zip should handle it fine on windows)
- - In your browser, enable developer mode, click on "Load Unpacked" and choose the folder that just got created (147.whatever)
+ - In your browser, go to `about:extensions`, enable developer mode, click on "Load Unpacked" and choose the folder that just got created (147.whatever)
  - If opening files doesn't work now, check the browser logs, if there are errors with "onChange" or something like that, then you have to
    go to `about:flags/#navigator-connection-attribute` in your browser, set it to enabled, and close and reopen your browser twice (I don't know why twice,
    but that's what worked, probably the extension caching something). Read https://github.com/brave/brave-browser/issues/20122 to know why
