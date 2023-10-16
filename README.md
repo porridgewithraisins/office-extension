@@ -27,6 +27,6 @@ Powerpoint and excel work great as well, as far as I have seen.
  - If opening files doesn't work now, check the browser logs, if there are errors with "onChange" or something like that, then you have to
    go to `about:flags/#navigator-connection-attribute` in your browser, set it to enabled, and close and reopen your browser twice (I don't know why twice,
    but that's what worked, probably the extension caching something). Read https://github.com/brave/brave-browser/issues/20122 to know why
-   it is disabled by default. You might want to trade off this extension for the benefits outlined in that link.
+   this flag is disabled by default. You might want to trade off this extension for the benefits outlined in that link.
 
 I only tested on chromium related browsers. It might work on firefox as well if you change the manifest. I might do this later.
