@@ -25,6 +25,7 @@ Powerpoint and excel work great as well, as far as I have seen.
  - `cat office.tar.gz | gunzip | tar -x` on linux and macos (7zip should handle it fine on windows)
  - In your browser, go to `about:extensions`, enable developer mode, click on "Load Unpacked" and choose the folder that just got created (147.whatever)
  - Drag and drop an office file into your browser - it should open.
+ - You can make your browser the default app to open office files and have the usual double clicking file in file manager just work as well.
  - If opening files doesn't work, check the browser logs, if there are errors with "onChange" or something like that, then you have to
    go to `about:flags/#navigator-connection-attribute` in your browser, set it to enabled, and close and reopen your browser twice (I don't
    know why twice, but that's what worked, probably the extension caching something). Read https://github.com/brave/brave-browser/issues/20122 to know why this flag is disabled by default. You might want to trade off this extension for the benefits outlined
